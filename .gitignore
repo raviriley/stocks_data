@@ -1,0 +1,9 @@
+# MacOS
+.DS_Store
+
+#Windows
+Thumbs.db
+
+# Misc
+*/__pycache__/*
+
