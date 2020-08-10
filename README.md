@@ -1,1 +1,1 @@
-# stocks_data
+# stocks_data package
