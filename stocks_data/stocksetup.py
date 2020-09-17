@@ -1,10 +1,9 @@
-import os
 
-def setup(startDate, endDate, dataSource="yahoo", api_key=None):
-    global data_source, start_date, end_date
-    data_source = dataSource.lower()
+def setup(startDate, endDate, dataSource="yahoo", apiKey=None):
+    global start_date, end_date, data_source, api_key
     start_date = startDate
     end_date = endDate
-    if (data_source.lower() == "iex"):
-        os.environ["IEX_API_KEY"] = api_key
+    data_source = dataSource.lower()
+    api_key = apiKey
+
 
